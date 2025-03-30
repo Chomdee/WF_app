@@ -49,7 +49,7 @@ To collect Tor traffic data from your Android device, follow these steps:
    → Converts cumulative traffic data into difference-based sequences.
 
 2. Run `packet_seq_augmentation.py`  
-   → Converts data into a **per-packet** format.
+   → Converts data into a **per-packet** format and augment the datas on packet sequences.
 
 3. Run `attach_noise.py`  
    → Appends random noise and adjusts sequence lengths to a fixed size.
